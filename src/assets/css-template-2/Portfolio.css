@@ -1,0 +1,88 @@
+.ReactModal__Overlay 
+{
+    z-index: 10000 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+   
+  
+}
+.ReactModalPortal
+{
+    overflow: hidden !important;
+}
+.ReactModal__Content
+{
+    max-width:800px ;
+    width:800px;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.carousel-item
+{
+    transition:none !important;
+    overflow: hidden !important;
+}
+.carousel-item img{
+    width: 100%;
+    height:400px !important;
+}
+.portfolio-section
+{
+    padding: 20px;
+    min-height: 400px;
+    height: 100%;
+    border-bottom: 1px solid #e5e0df;
+}
+.portfolio-section img
+{
+    height: 200px;
+    width: 100%;
+    box-shadow: -15px 15px 1px 0px #f1c40f !important;
+   
+  
+}
+.portfolio-section h1
+{
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 3;
+    color: #FFFFFF;
+    z-index: 1;
+}
+.portfolio-section h5
+{
+    word-wrap: break-word;
+    font-size: 1.5em;
+    margin: 15px 5px;
+    color: #FFFFFF;
+}
+.portfolio-section p
+{
+    font-size: 1.2em;
+    line-height: 2;
+    color: #e5e0df;
+    font-weight: 100;
+}
+
+@media (max-width:900px) {
+
+    .portfolio-section
+    {
+        padding: 10px 5px;
+    }
+    .ReactModal__Content
+    {
+        max-width:100% !important;
+        width:100% !important;
+    }
+
+    .portfolio-section img
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        height:50vh;
+    }
+    .portfolio-section h1
+    {
+        font-size: 1.5em;
+    }
+}

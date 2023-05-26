@@ -1,0 +1,379 @@
+{
+  "templateId": "test2",
+  "viewData": {
+    "header": {
+      "links": [
+        {
+          "text": "Home",
+          "href": "#home"
+        },
+        {
+          "text": "How we work",
+          "href": "#how-we-work"
+        },
+        {
+          "text": "Why Us",
+          "href": "#why-choose-us"
+        },
+        {
+          "text": "Specialisation",
+          "href": "#specialization"
+        },
+        {
+          "text": "Portfolio sites",
+          "href": "#portfolio-sites"
+        },
+        {
+          "text": "Team",
+          "href": "#team"
+        },
+        {
+          "text": "Award",
+          "href": "#award"
+        },
+        {
+          "text": "Contact Us",
+          "href": "#contact"
+        },
+      
+        {
+          "text": "Testimonial",
+          "href": "#testimonial"
+        },
+       
+        {
+          "text": "Get In Touch",
+          "href": "#get-in-touch"
+        }
+       
+      ]
+    },
+    "home": {
+      "title": "Tod Fod Jod",
+      "subtitle": "24 Hour Labour",
+      "questions": [
+        "Do you require manpower on an urgent basis?",
+        "Are you looking for a project to deploy your manpower?"
+      ],
+      "description": "Our team of experts is here to fulfill all your requirements!"
+    },
+    "specializations": [
+      {
+        "title": "Bridge Work",
+        "image": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+        "description": "We specialise in building and repairing bridges, and can assist with everything from design and engineering to construction and maintenance."
+      },
+      {
+        "title": "Road Work",
+        "image": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/road-work.jpg",
+        "description": "Our team can work on anything from major highways to smaller country roads. We take pride in building safe and durable roads that withstand the test of time."
+      },
+      {
+        "title": "Building Work",
+        "image": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/building-work.jpg",
+        "description": "Our experience with building construction spans a broad range, including commercial, industrial, and residential projects. Let us help you create the building of your dreams!"
+      },
+      {
+        "title": "Other Civil Work",
+        "image": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/other-civil-work.jpg",
+        "description": "We have experience with a variety of civil work projects, including sewers, water management systems, and more. Our team is dedicated to providing solutions."
+      }
+    ],
+    "howWeWork": [
+      {
+        "step": 1,
+        "title": "Requirement Gathering",
+        "description": "We will start with understanding your need for the project"
+      },
+      {
+        "step": 2,
+        "title": "Matching manpower",
+        "description": "We will then find the right match for your requirement"
+      },
+      {
+        "step": 3,
+        "title": "Execution & Completion",
+        "description": "Post matchmaking, workers will travel to project site and work will begin"
+      }
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Experience",
+        "description": "Our team has years of experience, and we've worked on projects of all sizes and types."
+      },
+      {
+        "title": "Quality",
+        "description": "We never compromise on quality, and our clients can trust that every detail will be given the attention it deserves."
+      },
+      {
+        "title": "Timely Completion",
+        "description": "We understand that time is money, so we work efficiently to ensure that projects are completed on-time and on-budget."
+      },
+      {
+        "title": "Client Focus",
+        "description": "We believe that communication is key to delivering successful projects. We work hard to ensure that our clients are informed and satisfied every step of the way."
+      }
+    ],
+    "getInTouch": {
+      "form": {
+        "fields": [
+          {
+            "label": "Name",
+            "type": "text",
+            "name": "name",
+            "placeholder": "Your Name",
+            "required": true
+          },
+          {
+            "label": "Email",
+            "type": "email",
+            "name": "email",
+            "placeholder": "Your Email",
+            "required": true
+          },
+          {
+            "label": "Phone Number",
+            "type": "tel",
+            "name": "phone",
+            "placeholder": "Your Phone Number",
+            "required": true
+          },
+          {
+            "label": "Role",
+            "type": "select",
+            "name": "iam",
+            "options": [
+              {
+                "value": "",
+                "text": "Select an Option",
+                "selected": true
+              },
+              {
+                "value": "civil-contractor",
+                "text": "Civil Contractor"
+              },
+              {
+                "value": "mechanical-contractor",
+                "text": "Mechanical Contractor"
+              },
+              {
+                "value": "labour-contractor",
+                "text": "Labour Contractor"
+              },
+              {
+                "value": "other",
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "label": "Location (District and State)",
+            "type": "text",
+            "name": "state-city",
+            "placeholder": "Share Your Location",
+            "required": true
+          },
+          {
+            "label": "Requirement",
+            "type": "select",
+            "name": "requirement",
+            "options": [
+              {
+                "value": "",
+                "text": "Select a Requirement",
+                "selected": true
+              },
+              {
+                "value": "labour",
+                "text": "Labour/Manpower"
+              },
+              {
+                "value": "contractor",
+                "text": "Contractor"
+              },
+              {
+                "value": "other",
+                "text": "Other"
+              }
+            ]
+          },
+          {
+            "label": "Requirement Details",
+            "type": "textarea",
+            "name": "message",
+            "placeholder": "Your requirements",
+            "rows": 4,
+            "required": true
+          }
+        ],
+        "submitButtonText": "Submit"
+      }
+    },
+    "ourDetails": {
+      "name": "BB Joshi",
+      "email": "bb.Joshi73@gmail.com",
+      "phone": "(+91) 93289 50080"
+    },
+    "footer": {
+      "poweredBy": {
+        "text": "Powered by",
+        "link": {
+          "href": "https://projecthero.in",
+          "text": "ProjectHero"
+        }
+      },
+      "callToAction": {
+        "text": "Click",
+        "link": {
+          "href": "tel:08047274654",
+          "text": "here"
+        },
+        "description": "to create your own portfolio website."
+      }
+    },
+    "portfolio": {
+      "sites": [
+        {
+          "clientName": "Client 1",
+          "siteLocation": "Location 1",
+          "brief": "Brief description of the project",
+          "sitePhotos": [
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg"
+          ],
+          "projectSize": 1000000,
+          "yearOfCompletion": 2022
+        },
+        {
+          "clientName": "Client 2",
+          "siteLocation": "Location 2",
+          "brief": "Brief description of the project",
+          "sitePhotos": [
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/road-work.jpg",
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/building-work.jpg",
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg"
+          ],
+          "projectSize": 2000000,
+          "yearOfCompletion": 2021
+        },
+        {
+          "clientName": "Client 2",
+          "siteLocation": "Location 2",
+          "brief": "Brief description of the project",
+          "sitePhotos": [
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/road-work.jpg",
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/building-work.jpg",
+            "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg"
+          ],
+          "projectSize": 2000000,
+          "yearOfCompletion": 2021
+        }
+      ],
+      "awards": [
+        {
+          "title": "Award 1",
+          "year": 2021,
+          "description": "Description of the award"
+        },
+        {
+          "title": "Award 2",
+          "year": 2020,
+          "description": "Description of the award"
+        },
+        {
+          "title": "Award 3",
+          "year": 2021,
+          "description": "Description of the award"
+        },
+        {
+          "title": "Award 4",
+          "year": 2020,
+          "description": "Description of the award"
+        }
+      ],
+      "otherClientLogos": [
+        "clientLogo1.jpg",
+        "clientLogo2.jpg",
+        "clientLogo3.jpg"
+      ]
+    },
+    "OurTeam": [
+      {
+        "memberName": "Rohit Sharma",
+        "memberPosition": "Civil Engineer",
+        "memberPhoto": "https://source.unsplash.com/collection/190727/900x900"
+      },
+      {
+        "memberName": "Rohit Sharma",
+        "memberPosition": "Civil Engineer",
+        "memberPhoto": "https://source.unsplash.com/collection/190727/900x900"
+      },
+      {
+        "memberName": "Rohit Sharma",
+        "memberPosition": "Civil Engineer",
+        "memberPhoto": "https://source.unsplash.com/collection/190727/900x900"
+      }
+    ],
+    "metrics": {
+      "projectsCompleted": 50,
+      "totalOrdersWorthCompleted": 5000,
+      "totalSquareFeetWorkDone": 1000,
+      "yearsOfExperience": 10
+    },
+    "testimonials": [
+      {
+        "clientName": "Client 1",
+        "clientLogo": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+        "testimonial": "The team did an excellent job on our project."
+      },
+      {
+        "clientName": "Client 2",
+        "clientLogo": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+        "testimonial": "Their professionalism and dedication to the project were truly impressive. Highly recommended! project were truly impressive. Highly recommended!"
+      },
+      {
+        "clientName": "Client 3",
+        "clientLogo": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+        "testimonial": "We couldn't be happier with the results. They delivered on time and exceeded our expectations."
+      },
+      {
+        "clientName": "Client 4",
+        "clientLogo": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+        "testimonial": "We couldn't be happier with the results. They delivered on time and exceeded our expectations."
+      }
+    ]
+  },
+  "seoData": [
+    {
+      "title": "Your Website Title | Your Brand",
+      "description": "A brief description of your website's content or purpose.",
+      "canonicalUrl": "https://yourwebsite.com/your-page",
+      "openGraph": {
+        "title": "Your Website Title",
+        "description": "A brief description of your website's content or purpose.",
+        "image": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg",
+        "url": "https://yourwebsite.com/your-page",
+        "type": "website"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Your Website Title",
+        "description": "A brief description of your website's content or purpose.",
+        "image": "https://storage.googleapis.com/portfolio-website-joshi/portfoliotemplate-main/bridge-work.jpg"
+      },
+      "alternateUrls": [
+        {
+          "hreflang": "en",
+          "href": "https://yourwebsite.com/en/your-page"
+        },
+        {
+          "hreflang": "es",
+          "href": "https://yourwebsite.com/es/your-page"
+        }
+      ],
+      "robots": "index, follow",
+      "faviconUrl": "/favicon.png"
+    }
+  ]
+}
