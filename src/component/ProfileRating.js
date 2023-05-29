@@ -199,7 +199,8 @@ function ProfileRating({ awardData }) {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData.formOne)
         };
-        await fetch('https://stage-api.projecthero.in/gateway/review-website/customer/create', requestOptionsFormOne)
+
+        await fetch('${process.env.BASE_URL}/gateway/review-website/customer/create', requestOptionsFormOne)
           .then(response => response.json())
           .then(resp => {
             setUserId(resp?.payload?.customerId);
@@ -224,7 +225,8 @@ function ProfileRating({ awardData }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
       };
-      await fetch('https://stage-api.projecthero.in/gateway/review-website/customer/review/create', requestOptionsFormTwo)
+
+      await fetch('${process.env.BASE_URL}/gateway/review-website/customer/review/create', requestOptionsFormTwo)
         .then(response => response.json())
         .then(data => {
           if (data?.statusCode && data?.statusCode !== 200) {

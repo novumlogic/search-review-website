@@ -3,6 +3,7 @@
 const nextConfig = {
   env: {
     API_KEY: 'AIzaSyDoUPx3ea_X7aCJSkECREralmhrf5UG3PI',
+    BASE_URL: 'https://api.projecthero.in'
   },
   reactStrictMode: true,
   devIndicators: {

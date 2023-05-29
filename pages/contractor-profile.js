@@ -13,9 +13,10 @@ export async function getServerSideProps ({ query }) {
   const id = query.id;
   const pageNumber = query.pageNumber ? query.pageNumber : 0;
   const pageSize = query.pageSize ? query.pageSize : 3;
-  const API_BASE_URL = `https://stage-api.projecthero.in/gateway/review-website/customer/${id}/details`;
 
-  const REVIEW_API_URL = `https://stage-api.projecthero.in/gateway/review-website/customer/${id}/reviews?pageNumber=${pageNumber}&pageSize=${pageSize}`;
+  const API_BASE_URL = `${process.env.BASE_URL}/gateway/review-website/customer/${id}/details`;
+
+  const REVIEW_API_URL = `${process.env.BASE_URL}/gateway/review-website/customer/${id}/reviews?pageNumber=${pageNumber}&pageSize=${pageSize}`;
 
   let data = '';
   let reviewData = '';

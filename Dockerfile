@@ -26,6 +26,7 @@ FROM node:alpine
 FROM node:alpine AS build
 WORKDIR /app
 COPY package.json .
+COPY next.config.js ./
 RUN npm install
 COPY . .
 RUN npm run build
@@ -36,6 +37,7 @@ WORKDIR /app
 COPY package.json .
 RUN npm install --production
 COPY --from=build /app/.next ./.next
+COPY --from=build /app/next.config.js ./
 COPY public ./public
 EXPOSE 3000
 CMD ["npm", "start"]
