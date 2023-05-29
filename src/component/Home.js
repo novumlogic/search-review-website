@@ -82,7 +82,7 @@ const handleEnter = (e) => {
                                     <div className="p-4 mb-5">
                                         <div className="d-flex align-items-sm-center flex-column">
                                             <div className="feature position-relative rounded-circle overflow-hidden bs-4 mb-3">
-                                                <Image src={elm?.profilePicture ? elm.profilePicture : Profile} className="img-fluid" width={80} height={113} alt="Joel fillip" />
+                                                <Image priority={false} unoptimized={true} src={elm?.profilePicture ? elm.profilePicture : Profile} className="img-fluid" width={80} height={113} alt="Joel fillip" />
                                             </div>
                                             <h2 className="h4 text-sm-center">{elm.companyName}</h2>
                                             <p className="text-black text-opacity-75 text-light mb-0 text-sm-center">{`${elm.city ? elm?.city + ' | ' : ''}${elm.designation}`}</p>
