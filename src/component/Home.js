@@ -62,10 +62,10 @@ const handleEnter = (e) => {
                     </div>
                 </div>
                 <div className="banner-bgs">
-                    <Image className="img-fluid img-eclipse d-none d-lg-block" src={elipse} alt="Elipse" />
-                    <Image className="img-fluid img-eclipse d-none d-sm-block d-md-none" src={elipseFull} alt="Elipse" />
-                    <Image className="img-fluid img-character d-none d-lg-block" src={engineerImage} alt="Engineer" />
-                    <Image className="img-fluid img-character d-none d-sm-block d-md-none" src={engineerImage} alt="Engineer" />
+                    <Image priority={false} unoptimized={true} className="img-fluid img-eclipse d-none d-lg-block" src={elipse} alt="Elipse" />
+                    <Image priority={false} unoptimized={true} className="img-fluid img-eclipse d-none d-sm-block d-md-none" src={elipseFull} alt="Elipse" />
+                    <Image priority={false} unoptimized={true} className="img-fluid img-character d-none d-lg-block" src={engineerImage} alt="Engineer" />
+                    <Image priority={false} unoptimized={true} className="img-fluid img-character d-none d-sm-block d-md-none" src={engineerImage} alt="Engineer" />
                 </div>
             </header>
             {/* <!-- Popular Contractors section--> */}
@@ -174,7 +174,7 @@ const handleEnter = (e) => {
                             <div className="p-lg-4">
                                 <div className="d-flex flex-column">
                                     <div className="feature rounded-circle mb-3" style={{ backgroundColor: '#D9EAFD' }}>
-                                        <Image src={Rating} className="img-fluid" alt="Ratings" />
+                                        <Image priority={false} unoptimized={true} src={Rating} className="img-fluid" alt="Ratings" />
                                     </div>
                                     <h2 className="h4">Verified Ratings</h2>
                                     <p className="text-black text-opacity-75 text-light mb-0">Authenticated ratings from fellow
@@ -186,7 +186,7 @@ const handleEnter = (e) => {
                             <div className="p-lg-4">
                                 <div className="d-flex flex-column">
                                     <div className="feature rounded-circle mb-3" style={{ backgroundColor: '#FDF7D9' }}>
-                                        <Image src={Investment} className="img-fluid" alt="Investment" />
+                                        <Image priority={false} unoptimized={true} src={Investment} className="img-fluid" alt="Investment" />
                                     </div>
                                     <h2 className="h4">Payment reviews</h2>
                                     <p className="text-black text-opacity-75 text-light mb-0">Information about General contractors
@@ -198,7 +198,7 @@ const handleEnter = (e) => {
                             <div className="p-lg-4">
                                 <div className="d-flex flex-column">
                                     <div className="feature rounded-circle mb-3" style={{ backgroundColor: '#E5D9FD' }}>
-                                        <Image src={Calander} className="img-fluid" alt="Calander" />
+                                        <Image priority={false} unoptimized={true} src={Calander} className="img-fluid" alt="Calander" />
                                     </div>
                                     <h2 className="h4">PH score</h2>
                                     <p className="text-black text-opacity-75 text-light mb-0">Information about General contractors
@@ -234,7 +234,7 @@ const handleEnter = (e) => {
                                     <hr />
                                     <div className="d-flex align-items-sm-center">
                                         <div className="feature position-relative rounded-circle overflow-hidden bs-4 me-3">
-                                            <Image src={Profile} className="img-fluid" alt="joel philip" />
+                                            <Image priority={false} unoptimized={true} src={Profile} className="img-fluid" alt="joel philip" />
                                         </div>
                                         <div>
                                             <h5 className="fw-bold m-0">Anand Mahija</h5>
@@ -264,7 +264,7 @@ const handleEnter = (e) => {
                                     <hr />
                                     <div className="d-flex align-items-sm-center">
                                         <div className="feature position-relative rounded-circle overflow-hidden bs-4 me-3">
-                                            <Image src={Profile} className="img-fluid" alt="Joel fillip" />
+                                            <Image priority={false} unoptimized={true} src={Profile} className="img-fluid" alt="Joel fillip" />
                                         </div>
                                         <div>
                                             <h5 className="fw-bold m-0">B N Patil</h5>
@@ -294,7 +294,7 @@ const handleEnter = (e) => {
                                     <hr />
                                     <div className="d-flex align-items-sm-center">
                                         <div className="feature position-relative rounded-circle overflow-hidden bs-4 me-3">
-                                            <Image src={Profile} className="img-fluid" alt="Joel fillip" />
+                                            <Image priority={false} unoptimized={true} src={Profile} className="img-fluid" alt="Joel fillip" />
                                         </div>
                                         <div>
                                             <h5 className="fw-bold m-0">Mahesh Rao</h5>

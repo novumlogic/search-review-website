@@ -64,7 +64,7 @@ function Constractorprofile ({ contractorDetails, reviews }) {
                 <div className="row">
                   <div className="col-lg-2">
                     <div className="feature feature-full position-relative rounded-3 overflow-hidden bs-4">
-                    <Image src={ contractorDetails?.profilePicture ? contractorDetails?.profilePicture : ReviewImg} alt='review' className="img-fluid" width={100} height={150} />
+                    <Image priority={false} unoptimized={true} src={ contractorDetails?.profilePicture ? contractorDetails?.profilePicture : ReviewImg} alt='review' className="img-fluid" width={100} height={150} />
                     </div>
                   </div>
                   <div className="col-lg-10">

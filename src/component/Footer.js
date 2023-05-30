@@ -17,16 +17,16 @@ function Footer({ ourDetailsData }) {
         <div className="row gx-5 justify-content-center text-white">
           <div className="col-lg-7 col-xl-7">
             <div className="pe-5 py-3">
-              <Image className="img-fluid logo w-auto h-auto" alt="Footer Logo" src={footerLogo} />
+              <Image priority={false} unoptimized={true} className="img-fluid logo w-auto h-auto" alt="Footer Logo" src={footerLogo} />
               <h3 className="py-5">Your ProjectHeroes are Ready</h3>
               <div className="row">
                 <div className="col-lg-4 col-xl-4 br-white">
                   <h5>Contractor App</h5>
-                  <a href="https://play.google.com/store/apps/details?id=com.projecthero.contractor&hl=en-IN&utm_source=website&utm_medium=website&utm_campaign=website_app_install&utm_content=app_install&utm_term=app_install" target="_blank"><Image className="img-fluid w-100" alt="Playstore Image" src={playstoreImg} /></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.projecthero.contractor&hl=en-IN&utm_source=website&utm_medium=website&utm_campaign=website_app_install&utm_content=app_install&utm_term=app_install" target="_blank"><Image priority={false} unoptimized={true} className="img-fluid w-100" alt="Playstore Image" src={playstoreImg} /></a>
                 </div>
                 <div className="col-lg-4 col-xl-4">
                   <h5>Worker App</h5>
-                  <a href="https://play.google.com/store/apps/details?id=com.projecthero.android&hl=en-IN&utm_source=website&utm_medium=website&utm_campaign=website_app_install&utm_content=app_install&utm_term=app_install" target="_blank"><Image className="img-fluid w-100" alt="Playstore Image" src={playstoreImg} /></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.projecthero.android&hl=en-IN&utm_source=website&utm_medium=website&utm_campaign=website_app_install&utm_content=app_install&utm_term=app_install" target="_blank"><Image priority={false} unoptimized={true} className="img-fluid w-100" alt="Playstore Image" src={playstoreImg} /></a>
                 </div>
               </div>
             </div>
@@ -37,8 +37,8 @@ function Footer({ ourDetailsData }) {
               <p>Please feel free to reach out to our customer support from 9 AM - 6 PM on weekdays.</p>
               <div className="pt-5">
                 <ul className="navbar-nav ms-auto">
-                  <li className="nav-item d-flex mb-2"><Image className="nav-icon me-3" alt="email Icon" src={emailImg}/><a className="nav-link" href="mailto:marketing@projecthero.in">marketing @projecthero.in</a></li>
-                  <li className="nav-item d-flex"><Image className="nav-icon me-3" alt="Call Icon" src={callImg}/><a className="nav-link" href="tel:+91-9151003537">+91-9151003537</a></li>
+                  <li className="nav-item d-flex mb-2"><Image priority={false} unoptimized={true} className="nav-icon me-3" alt="email Icon" src={emailImg}/><a className="nav-link" href="mailto:marketing@projecthero.in">marketing @projecthero.in</a></li>
+                  <li className="nav-item d-flex"><Image priority={false} unoptimized={true} className="nav-icon me-3" alt="Call Icon" src={callImg}/><a className="nav-link" href="tel:+91-9151003537">+91-9151003537</a></li>
                 </ul>
               </div>
             </div>
@@ -55,10 +55,10 @@ function Footer({ ourDetailsData }) {
           </div>
           <div className="col-lg-6 col-xl-6">
             <ul className="navbar-nav d-flex align-items-center flex-row-reverse pe-5">
-              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.instagram.com/projectheroworkers/?hl=en"><Image className="img-fluid" alt="..." src={facebookImg}/></a></li>
-              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.youtube.com/@ProjectHeroconstruction1021"><Image className="img-fluid" alt="..." src={linkedinImg}/></a></li>
-              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.linkedin.com/company/ProjectHeroes/"><Image className="img-fluid" alt="..." src={youtubeImg}/></a></li>
-              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.facebook.com/ondemandlabour"><Image className="img-fluid" alt="..." src={instagramImg}/></a></li>
+              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.instagram.com/projectheroworkers/?hl=en"><Image priority={false} unoptimized={true} className="img-fluid" alt="..." src={facebookImg}/></a></li>
+              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.youtube.com/@ProjectHeroconstruction1021"><Image priority={false} unoptimized={true} className="img-fluid" alt="..." src={linkedinImg}/></a></li>
+              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.linkedin.com/company/ProjectHeroes/"><Image priority={false} unoptimized={true} className="img-fluid" alt="..." src={youtubeImg}/></a></li>
+              <li className="nav-item pe-3"><a className="nav-link" target="_blank" href="https://www.facebook.com/ondemandlabour"><Image priority={false} unoptimized={true} className="img-fluid" alt="..." src={instagramImg}/></a></li>
             </ul>
           </div>
         </div>

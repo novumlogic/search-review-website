@@ -108,7 +108,7 @@ function Searchresult ({ contractorsList }) {
             <div className="container px-5 mb-5">
               <div className="row gx-5">
                 <div className="col-lg-12 d-flex justify-content-center">
-                  <Image src={notFound} alt="Contractor Not Found" className="img-fluid" width={150} />
+                  <Image priority={false} unoptimized={true} src={notFound} alt="Contractor Not Found" className="img-fluid" width={150} />
                 </div>
                 <div className="col-lg-12 mb-3">
                   <h4 className="text-center mb-3">{`Sorry! We could not find any contractor for “${searchValue}”.`}</h4>
@@ -134,7 +134,7 @@ function Searchresult ({ contractorsList }) {
                     <div className="row d-flex align-items-center">
                       <div className="col-lg-2">
                         <div className="feature feature-full position-relative rounded-3 overflow-hidden bs-4">
-                          <Image src={elm?.profilePicture ? elm?.profilePicture : ReviewImg} alt='Review' className="img-fluid" width={100} height={100} />
+                          <Image priority={false} unoptimized={true} src={elm?.profilePicture ? elm?.profilePicture : ReviewImg} alt='Review' className="img-fluid" width={100} height={100} />
                         </div>
                       </div>
                       <div className="col-lg-10">
